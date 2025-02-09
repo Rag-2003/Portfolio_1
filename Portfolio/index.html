@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghav Bidsar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#education" class="menu-btn">Education</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#resume" class="menu-btn">Resume</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Raghav Bidsar</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="#contact">Get in Touch</a>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/_raghav03/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/raghav-bidsar-540456229" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Rag-2003" target="_blank"><i class="fab fa-github"></i></a>
+                    <!-- <a href="https://leetcode.com/u/tejasv_9081/" target="_blank"><i class="fas fa-code"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images\raghav.jpeg" alt="Tejasv's Profile Picture">
+                </div>
+                <div class="about-text">
+                    <h3>I'm Raghav and I'm a <span class="typing-2"></span></h3>
+                    <p>As a pre-final year ECE student at BIT Mesra, I am deeply passionate 
+                        about leveraging technology to create robust and innovative software solutions. With a strong 
+                        foundation in languages such as Java, Python, C++, and SQL, and experience in full-stack development,
+                        I am eager to apply my skills in real-world projects. I am currently seeking an internship opportunity 
+                        in software development to enhance my technical abilities and gain hands-on experience in building impactful applications.</p>
+                    <p>Let's connect to explore possibilities of collaboration and growth!</p>
+                    <div class="cta-buttons">
+                        <a href="resume/Raghav Resume_new.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <a href="https://doctor-appointment-1-pcs8.vercel.app/" target="_blank">
+                        <div class="project-image">
+                            <img src="images/swathivijaywargie.jpeg" alt="E-Commerce Website">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Doctor Appointment</h3>
+                            <p class="project-description">Created a doctor appointment booking platform with secure JWT-based authentication and bcrypt password encryption, increasing security by 40%.
+                                Built a seamless user experience with MongoDB as the primary backend for CRUD operations, enabling a 20% increase in booking efficiency.
+                                Implemented role-based access control (RBAC) for doctors and patients, improving dashboard security by 40%.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://kanban-board-react-ashy.vercel.app/" target="_blank">
+                        <div class="project-image">
+                            <img src="images/chatbot.jpeg" alt="ChatBot-Prometheus">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Kanban Board</h3>
+                            <p class="project-description">Built a Kanban board application with drag-and-drop functionality, optimizing task movement efficiency by 50%.
+                                Enhanced task discovery with advanced filtering and sorting by priority, due dates, and tags, improving task retrieval speed by 40%.
+                                Boosted productivity by 25% by integrating real-time task reminders and due notifications, ensuring timely task completion.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://code-assist-raghav-1c11.vercel.app/" target="_blank">
+                        <div class="project-image">
+                            <img src="images/project3.png" alt="Know Your Website">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Technical Coding Full-Stack Web Application</h3>
+                            <p class="project-description">Engineered an educational platform supporting 100+ students with API-based real-time content delivery, improving engagement by 40%.
+                                Improved website performance by 20% using lazy loading and flexbox layout for optimal UI rendering.
+                                Managed 100+ asynchronous API requests using Redux, enhancing data management efficiency by 30%.</p>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Languages</h3>
+                    <ul class="skill-list">
+                        <li><span class="rhombus"></span>Java</li>
+                        <li><span class="rhombus"></span>C++</li>
+                        <li><span class="rhombus"></span>C</li>
+                        <li><span class="rhombus"></span>Python</li>
+                        <li><span class="rhombus"></span>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Technologies</h3>
+                    <ul class="skill-list">
+                        <li><span class="rhombus"></span>HTML</li>
+                        <li><span class="rhombus"></span>CSS</li>
+                        <li><span class="rhombus"></span>JavaScript</li>
+                        <li><span class="rhombus"></span>React.js</li>
+                        <li><span class="rhombus"></span>Angular.Js</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools</h3>
+                    <ul class="skill-list">
+                        <li><span class="rhombus"></span>Jupyter Notebook</li>
+                        <li><span class="rhombus"></span>Shopify</li>
+                        <li><span class="rhombus"></span>MS Excel</li>
+                        <li><span class="rhombus"></span>Git</li>
+                        <li><span class="rhombus"></span>WordPress</li>
+                        <li><span class="rhombus"></span>PowerBI</li>
+                        <li><span class="rhombus"></span>PostgreSQL</li>
+                        <li><span class="rhombus"></span>Git</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data Analysis</h3>
+                    <ul class="skill-list">
+                        <li><span class="rhombus"></span>Pandas</li>
+                        <li><span class="rhombus"></span>NumPy</li>
+                        <li><span class="rhombus"></span>Matplotlib</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Machine Learning</h3>
+                    <ul class="skill-list">
+                        <li><span class="rhombus"></span>TensorFlow</li>
+                        <li><span class="rhombus"></span>Keras</li>
+                        <li><span class="rhombus"></span>scikit-learn</li>
+                        <li><span class="rhombus"></span>PyTorch</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Birla Institute of Technology , Mesra</h3>
+                        <p class="education-degree">Bachelor of Technology in Electronics and Communication Engineering</p>
+                        <p class="education-date">Sep 2021 – July 2025</p>
+                        <!-- <p class="education-gpa">CGPA: 9.2</p> -->
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>LBS Public School</h3>
+                        <p class="education-degree">CBSE XII</p>
+                        <p class="education-date">Completed in 2021</p>
+                        <p class="education-gpa">Percentage : 76.4 %</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <!-- <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-content">
+                <div class="cert-box">
+                    <div class="text">Microsoft: Azure AI-900 fundamentals</div>
+                    <a href="https://drive.google.com/file/d/16nLTXn7qQr1RY0J6N5hk_NuLsEHjcKqQ/view?usp=sharing" target="_blank" class="btn-cert">View Certificate</a>
+                </div>
+                <div class="cert-box">
+                    <div class="text">Introduction to Front end developer - Meta </div>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/N5NT7UVPLTC9" target="_blank" class="btn-cert">View Certificate</a>
+                </div>
+                <div class="cert-box">
+                    <div class="text">Introduction to Programming Using Python- Udemy</div>
+                    <a href="https://www.udemy.com/certificate/UC-26c89daf-cbfc-443f-972f-46b94d21be3c/" target="_blank" class="btn-cert">View Certificate</a>
+                </div>
+                <div class="cert-box">
+                    <div class="text">Wildlife Ecology - NPTEL</div>
+                    <a href="https://archive.nptel.ac.in/content/noc/NOC23/SEM2/Ecertificates/102/noc23-bt55/Course/NPTEL23BT55S54970020320418213.pdf" target="_blank" class="btn-cert">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- EXTRA CURRICULAR Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Extracuricular Achievements </h2>
+            <div class="cert-content">
+                <div class="cert-box">
+                    <div class="text">Leadership Role at Plasma Gyan Exhibition </div>
+                    <p>Coordinated 45+ schools and managed a crowd of over 1,200 students.</p>
+                    <!-- <a href="https://drive.google.com/file/d/1Zud4MVldpew3egS8PxgwqMaDXfa1TOTO/view?usp=sharing" target="_blank" class="btn-cert">View Certificate</a> -->
+                </div>
+                <div class="cert-box">
+                    <div class="text">2nd Place at IIT Kanpur’s Pitch Premiere</div>
+                    <p>Presented a product idea that ranked in the top 2% among 100+ innovative ideas</p>
+                    <!-- <a href="https://drive.google.com/file/d/1Zud4MVldpew3egS8PxgwqMaDXfa1TOTO/view?usp=sharing" target="_blank" class="btn-cert">View Certificate</a> -->
+                </div>
+                <div class="cert-box">
+                    <div class="text">1st Place in College Coding Competition:</div>
+                    <p>Solved 20+ coding problems in 3 hours, surpassing 120 competing teams.</p>
+                    <!-- <a href="https://drive.google.com/drive/folders/155LCNkblDX1VRWobOniuoMpoiWI4yOWO?usp=sharing" target="_blank" class="btn-cert">View Certificate</a>
+                </div> -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>If you would like to collaborate, discuss a project, or just say hi, feel free to reach out to me.</p>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <h4>Name</h4>
+                                <p>Raghav Bidsar</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>Jaipur, Rajasthan</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>bidsarraghav18@gmail.com</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7425996168</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+        <div class="container">
+            <h2 class="section-title">My Resume</h2>
+            <div class="resume-content">
+                <embed src="resume/Raghav Resume_new.pdf" type="application/pdf" width="100%" height="600px" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <span>Created By Raghav Bidsar | &copy; 2024 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
